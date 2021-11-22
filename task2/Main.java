@@ -8,6 +8,9 @@ public class Main {
             CityParsing parser = new CityParsing();
             parser.sortCitiesByName();
             parser.printCities();
+            System.out.println();
+            parser.sortCitiesByDistrict();
+            parser.printCities();
         } catch (FileNotFoundException e) {
             System.out.println("File error");
         }

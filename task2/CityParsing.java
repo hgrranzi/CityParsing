@@ -41,4 +41,14 @@ public class CityParsing {
             }
         });
     }
+
+    public void sortCitiesByDistrict() {
+        sortCitiesByName();
+        this.cityList.sort(new Comparator<City>() {
+            @Override
+            public int compare(City city1, City city2) {
+                return city1.getDistrict().compareToIgnoreCase(city2.getDistrict());
+            }
+        });
+    }
 }
