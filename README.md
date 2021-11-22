@@ -4,7 +4,7 @@
 
 ## Status
 
-IN PROGRESS
+COMPLETED
 
 ## Description
 
